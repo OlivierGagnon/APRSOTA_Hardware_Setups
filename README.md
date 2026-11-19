@@ -17,7 +17,7 @@ Choose one of the three hardware setups below depending on your equipment, local
 If you do not have a local two-way (**RX/TX**) iGate nearby, you can host everything yourself at home. This setup uses **two Quansheng UV-K1** handhelds connected to a single PC: one acts as your **Serial KISS TNC** (controlled by OTAgo), and the other acts as your local **RF-to-APRS-IS iGate** (controlled by a custom Python script). Your OTAgo client transmits over RF from Radio 1 to Radio 2, which gates the traffic into APRS-IS.
 
 #### Hardware & Wiring
-* **2x Quansheng UV-K1** running firmware with the **KISS TNC** overlay app installed.
+* **2x Quansheng UV-K1** running **F4HWN firmware** with the **KISS TNC** overlay app installed.
 * **2x Data-capable USB-C cables** plugged directly into your PC.
 * **Remove the batteries** from both radios. The USB-C connection powers the radios directly, and running without batteries prevents battery degradation from continuous charging and heat.
 
